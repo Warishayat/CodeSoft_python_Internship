@@ -14,5 +14,6 @@ seprate result.like i create the sum function for plus i make divide
 <br>i make the program like if user want to stop after some expression <br>they can brake the program and go out from the program but if the user <br>want to stay inside the program and continue their application of <br>calculator again and again for that purpose i use while true condition.
 <br>i used a module with "math" name to find exponent  and sqareroot of <br>the value.
 <br>expoenent will take of 2 and the input number will be thw power of <br>that 2 like if i take input  99 and 3 than my function will take the <br>power of 2 power 99+3 and will find the exponent.
-<br>
+<br>i handled the vlaueError in calculator where user enter wrong value
+<br> there will e raise value error and program got skipped. for one whole <br>loop
             __________________________________________________
