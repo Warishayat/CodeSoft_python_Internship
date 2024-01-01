@@ -28,15 +28,18 @@ while True:
         #will be like 2 power 15(7+8).
         print(f"The Exponent of {num1} and {num2} is:",mt.exp2(num1+num2))
 
-    try:
+
+
+    try:                            #valueError Handle
     #take num1 and num2 input from user:
         num1=float(input("Enter the Number1:"))
         num2=float(input("Enter the Number2:"))
     except ValueError:
         print("ValueError: could not convert string to float")
         continue
-    #taking operator input from the user
-    try:
+
+    #operator input
+    try:                                    #valueError Handle
         operator=int(input("""
         1: for Sum
         2: for Divide
@@ -48,27 +51,28 @@ while True:
     except ValueError:
         print("ValueError: could not convert string to float")
         continue
-        #now i will check the condition here
-    if operator==1:         #Sum
+
+    #Check Conditions
+    if operator==1:                         #Sum
         sum(num1,num2)
-    elif operator==2:       #Divide
+    elif operator==2:                       #Divide
         divide(num1,num2)
-    elif operator==3:       #Multipy
+    elif operator==3:                        #Multipy
         multiply(num1,num2)
-    elif operator==4:       #Modulus
+    elif operator==4:                        #Modulus
         modulus(num1,num2)
-    elif operator==5:       #Average
+    elif operator==5:                        #Average
         average(num1,num2)
-    elif operator==6:       #Square-root
+    elif operator==6:                        #Square-root
         sqrt(num1,num2)
-    elif operator==7:       #Exponent
+    elif operator==7:                        #Exponent
         exponent(num1,num2)
-    else:                   #if non from all of above
-                print("Invalid-----character")
+    else:                                    #if non from all of above
+        print("Invalid-----character")
         
     
-    #check again user want to use the calculator:
-    try:
+    #if want use again:
+    try:                                        #valueError Handle
         Choiceinput=input("Do you want to continue or close:(y for continue else any number for brake:)")
         if Choiceinput!='y':
             break

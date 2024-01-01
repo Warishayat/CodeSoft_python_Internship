@@ -95,3 +95,27 @@ Contribution
 Feel free to contribute to the project by following our [contribution guidelines].
 <br>
             _________________________________________________
+
+Rock, Paper, Scissors Game
+Overview
+Welcome to the classic game of Rock, Paper, Scissors implemented in Python! This simple yet entertaining console-based game allows users to engage in the age-old battle of wits and quick decision-making.
+
+Execute the Python script to start the game:
+bash
+Copy code
+python main.py
+Follow the Prompts:
+
+The game will prompt you to choose between Rock, Paper, or Scissors.
+Enter your choice, and the computer will randomly select its move.
+Outcome:
+
+The game will determine the winner based on the classic Rock, Paper, Scissors rules.
+Enjoy the thrill of victory or the learning experience of defeat!
+Features
+Simple and Intuitive: The game is designed to be easy to understand, making it suitable for players of all ages.
+Randomized Computer Moves: The computer's choices are randomized, providing a dynamic and challenging experience.
+Command-Line Interface: Play the game directly from the command line for a quick and accessible gaming session.
+Contribution
+Feel free to contribute to the project by opening issues, proposing enhancements, or submitting pull requests. Your feedback and involvement are highly encouraged!
+
